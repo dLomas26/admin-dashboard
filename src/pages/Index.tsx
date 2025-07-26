@@ -131,17 +131,17 @@ const Index = () => {
     }
   };
 
-  if (isLoading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-background">
-        <div className="text-center space-y-4">
-          <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto"></div>
-          <h2 className="text-xl font-semibold text-card-foreground">Loading School Management System...</h2>
-          <p className="text-muted-foreground">Setting up PWA capabilities</p>
-        </div>
-      </div>
-    );
-  }
+  // if (isLoading) {
+  //   return (
+  //     <div className="min-h-screen flex items-center justify-center bg-background">
+  //       <div className="text-center space-y-4">
+  //         <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto"></div>
+  //         <h2 className="text-xl font-semibold text-card-foreground">Loading School Management System...</h2>
+  //         <p className="text-muted-foreground">Setting up PWA capabilities</p>
+  //       </div>
+  //     </div>
+  //   );
+  // }
 
   const { title, subtitle } = getPageTitle(activeTab);
 
